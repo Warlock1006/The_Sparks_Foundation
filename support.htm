@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Project</title>
+    <link rel="icon" href="images/BTC_Logo.svg.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="freeimage">
+        <div class="maindiv">
+            <nav class="naver">
+                <div class="bankname">
+                    <p>People's Bank</p>
+                </div>
+                <div class="homewageramain">
+                <div class="homewagera">
+                    <a href="index.htm"><p>Home</p></a>
+                </div>
+                <div class="homewagera">
+                    <a href=""><p>About Us</p></a>
+                </div>
+                <div class="homewagera">
+                    <a href="test.php"><p>Customers</p></a>
+                </div>
+                <div class="homewagera">
+                    <a href="" style="color: rgb(179, 0, 0)"><p>Support</p></a>
+                </div>
+            </div>
+        </nav>
+        </div>
+        <div>
+            <div class="suppimg">
+                <img src="Images/support.jpg" alt="We are here to help you">
+            </div>
+            <div class="formdiv">
+                <h2>Solving your problem is our first priority! Please Let us know what caused trouble</h2>
+                <h4>Please enter your Name</h4>
+                <input type="text" placeholder="Please Enter Your Name">
+                <!-- <h4>Tell us what you want to get helped with?</h4> -->
+                <textarea name="problemo" id="problemo" cols="30" rows="10" placeholder="Enter your query here"></textarea>
+            </div>
+        </div>
+        <div class="buttonsdiv">
+            <div class="transfertab">
+                <a href=""><button>Submit</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="copyrightdiv">
+        <p id="copyrights"></p>
+    </div>
+</body>
+<script>
+    var currYear=new Date().getFullYear();
+    document.getElementById("copyrights").innerHTML="&copy "+ currYear+ "<b> Akash Ranjan</b> <br> Intern, The Sparks Foundation";
+</script>
+</html>
